@@ -1,0 +1,19 @@
+# Executables
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Debug files
+*.pdb
+
+# VS Code
+.vscode/ipch/
+
+# Temporary
+*.log
+
+# Windows
+Thumbs.db
+.DS_Store
