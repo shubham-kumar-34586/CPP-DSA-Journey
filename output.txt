@@ -1,1 +1,1 @@
-10 is even
+-18 is negative

@@ -6,18 +6,18 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-std=c++20",
+                "-std=c++23",
                 "-g",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
-            "options": {
-                "cwd": "${fileDirname}"
             },
             "problemMatcher": [
                 "$gcc"
@@ -27,8 +27,7 @@
                 "reveal": "never",
                 "focus": false,
                 "panel": "shared",
-                "clear": true,
-                
+                "clear": true
             }
         }
     ]
